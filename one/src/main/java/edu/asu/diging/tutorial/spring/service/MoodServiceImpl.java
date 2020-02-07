@@ -37,10 +37,10 @@ public class MoodServiceImpl implements MoodService {
 	
 	private void LoadReasons() {
 		moodReasons = new HashMap<>();
-		moodReasons.put("Happy","because it is having a good day.");
-		moodReasons.put("Sad","because it has no food.");
-		moodReasons.put("Excited","because it got a job.");
-		moodReasons.put("Joyful","because it is happy.");
+		moodReasons.put("Happy","Tomcat is happy because it is having a good day.");
+		moodReasons.put("Sad","Tomcat is sad because it has no food.");
+		moodReasons.put("Excited","Tomcat is excited because it got a job.");
+		moodReasons.put("Joyful","Tomcat is joyful because it is happy.");
 	}
 
 }

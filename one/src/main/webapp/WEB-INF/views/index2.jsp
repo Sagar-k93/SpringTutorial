@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-It is ${ reason }
+${ reason }
 </body>
 </html>

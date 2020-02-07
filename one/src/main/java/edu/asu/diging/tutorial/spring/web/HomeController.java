@@ -18,7 +18,7 @@ public class HomeController {
 		map.addAttribute("mood", mService.getCurrentMood());
 		return "home";
 	}
-	@RequestMapping(value = "/index2")
+	@RequestMapping(value = "/explanation")
 	public String reasonLoader(ModelMap map) {
 		map.addAttribute("reason", mService.getMoodReason());
 		return "index2";
